@@ -26,8 +26,8 @@ function smtp_mailer($to,$subject, $msg){
 	$mail->Port = 465;  
 	$mail->IsHTML(true);
 	$mail->CharSet = 'UTF-8';
-	$mail->Username = "rohit@studo99.com";
-	$mail->Password = "email123";
+	$mail->Username = "info@zoommantra.com";
+	$mail->Password = "Team@121";
 	$mail->SetFrom("noreplay@zoommantra.ae","Zoommantra celebrity");
 	$mail->Subject = $subject;
 	$mail->Body =$msg;
